@@ -1,0 +1,103 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 206px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 27px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    text-align: center;
+}
+
+.brands, .clocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.clocks div{
+    width: 232px;
+    height: 330px;
+    border-radius: 13px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.clocks div span{
+    color: red;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.clocks div p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#old{
+    color: #000;
+    text-decoration: line-through;
+}
+
+.form{
+    display: block;
+    height: 274px;
+    background-color: #630000;
+    color: #fff;
+}
+
+.form h2{
+    padding-top: 79px;
+    padding-left: 66px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+.form p{
+    padding-left:66px;
+    padding-top:28px;
+}
+form {
+    padding-top: 4px;
+    padding-left: 66px;
+}
+form input{
+    width: 279px;
+    height: 45px;
+    
+}
+form button{
+    width: 279px;
+    height: 45px;
+}
+footer {
+    position: relative;
+    margin-top:40px;
+    background: #000000; 
+    color: #ffffff; 
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
